@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>AmstelCrete Web Application</display-name>
+  <servlet>
+  	<servlet-name>AmstelCreteServlet</servlet-name>
+  	<display-name>AmstelCreteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.amstelcrete.web.AmstelCreteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AmstelCreteServlet</servlet-name>
+  	<url-pattern>/contact</url-pattern>
+  </servlet-mapping>
+</web-app>

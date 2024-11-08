@@ -1,0 +1,48 @@
+body {
+	width: 60%;
+	text-align: center;
+	background-color: rgba(128, 119, 86, 0.2)
+}
+
+#ac-form {
+	width: 900px;
+	text-align: left;
+	margin: 0px auto;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+table {
+	border-spacing: 20px;
+}
+
+h1 {
+	padding-left: 110px;
+}
+
+img {
+	width: 300px;
+	padding-left: 150px;
+}
+
+td {
+	vertical-align: top
+}
+
+textarea {
+	width: 600px;
+}
+
+input[type="email"], textarea {
+	background-color: rgba(128, 119, 86, 0.5)
+}
+input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid {
+  border: 2px solid red;
+  background-color: beige;
+}

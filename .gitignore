@@ -1,0 +1,8 @@
+**/target/
+**/.settings/
+**/.checkstyle
+**/.classpath
+**/.project
+**/logs
+**/confidential
+/site/
